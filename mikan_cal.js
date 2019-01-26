@@ -5,8 +5,8 @@
 // 合計金額xをコンソールに出力するプログラムを書いてみましょう。
 // ※消費税は考慮しないものとする。
 
-mikan_price = 100;
+function getMikancal(price, num) {
+  return price * num;
+}
 
-x = mikan_price * 13;
-
-console.log(x);
+console.log(getMikancal(100, 13));
