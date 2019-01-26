@@ -1,5 +1,5 @@
-// console.log(10);
-// console.log("She's happy.");
+function getRectangle(heigth, width) {
+  return heigth * width;
+}
 
-var y;
-console.log(y);
+console.log(getRectangle(3, 5));
