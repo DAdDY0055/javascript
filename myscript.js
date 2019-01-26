@@ -1,4 +1,4 @@
-function getRectangle(heigth, width) {
+var getRectangle = function(heigth, width) {
   return heigth * width;
 }
 
