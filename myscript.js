@@ -1,7 +1,16 @@
-var x = 99;
+var n = 9;
 
-if(x >= 100) {
-  console.log('100以上です。');
-} else {
-  console.log('100未満です。');
+switch (n) {
+  case 1:
+    console.log('数値は1です。');
+    break;
+  case 2:
+    console.log('数値は2です。');
+    break;
+  case 3:
+    console.log('数値は3です。');
+    break;
+  default:
+    console.log('範囲外です。');
+    break;
 }
