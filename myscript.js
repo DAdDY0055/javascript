@@ -1,3 +1,7 @@
-var getRectangle = new Function('heigth', 'width', 'return heigth * width');
+var x = 99;
 
-console.log(getRectangle(3, 5));
+if(x >= 100) {
+  console.log('100以上です。');
+} else {
+  console.log('100未満です。');
+}
