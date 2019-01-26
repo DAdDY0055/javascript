@@ -1,1 +1,2 @@
-alert("アラートです");
+var colorName = "red";
+console.log(colorName);
