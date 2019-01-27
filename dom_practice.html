@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScriptの学習</title>
+  </head>
+  <body>
+    <ul id="list"></ul>
+
+    <input id="result" type="text" />
+    <input type="button" value="追加" onclick="appendElements()" />
+
+    <script>
+      function appendElements() {
+        var result = document.getElementById("result");
+        var li = document.createElement("li");
+        var text = document.createTextNode(result.value);
+        li.appendChild(text);
+        var list = document.getElementById("list");
+        list.appendChild(li);
+      }
+    </script>
+  </body>
+</html>
