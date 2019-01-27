@@ -1,15 +1,4 @@
-for (var i = 1; i <= 3; i++) {
-  console.log(i);
-}
-
-var i = 1;
-while (i <= 3) {
-  console.log(i);
-  i++;
-}
-
-var i = 1;
-do {
-  console.log(i);
-  i++;
-} while (i <= 3);
+var user = { name: "山田花子", gender: "女性", birth: "1990/01/01" };
+console.log(user.name);
+console.log(user.gender);
+console.log(user.birth);
